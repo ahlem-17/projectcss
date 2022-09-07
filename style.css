@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+#navbar {
+  display: flex;
+  min-height: 69px;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+}
+#navbar img {
+  height: 50px;
+  margin-left: 10px;
+}
+#navbar ul {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+#navbar ul li {
+  margin: 0 10px;
+}
+#navbar ul li a {
+    text-decoration: underline;
+    color: white;
+}
+header {
+  height: 700px;
+  background: url("images/bg.jpeg")
+  no-repeat center center;
+  background-size: cover;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} 
+header .header-content {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+}
+header .header-content h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+header .header-content h4 {
+  margin-bottom: 10px;
+}
+main #img-gallery {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px auto;
+}
+main #img-gallery #img-container .images {
+  width: 300px;
+  height: 200px;
+}
+main #img-gallery #img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px auto;
+}
+main #img-gallery  h4 {
+  margin-top: 20px;
+}
+main #img-gallery #img-container .imgbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#recipes-bgimage {
+  max-width: 1200px;
+  background: url("https://c-o-d-e.github.io/tea-cozy/resources/img/img-locations-background.webp")
+    no-repeat center center;
+   background-size: cover;
+   height: auto;
+   margin: 0 auto;
+
+}
+main .recipes-container {
+   
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .recipes-container .recipes-box {
+  min-width: 18.75rem;
+  max-width: 18.75rem;
+  height: 18.75rem;
+  background-color: black;
+  margin: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 1 0 auto;
+  margin-bottom: 5rem;
+}
+#recipes-title {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  width: auto;
+  padding-top: 3rem;
+}
+main #contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  margin: 40px auto;
+}
+main #contact h2 {
+  margin-bottom: 5px;
+}
+main #contact h2 {
+  margin: 10px;
+}
+footer {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
